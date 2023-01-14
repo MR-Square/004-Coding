@@ -13,4 +13,6 @@ int main(){
     else{
         cout << no << " is odd";
     }
+
+    return 0;
 }

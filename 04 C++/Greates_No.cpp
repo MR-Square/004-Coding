@@ -22,4 +22,6 @@ int main(){
     else{
         cout << "Greates no is " << no3;
     }
+
+    return 0;
 }
