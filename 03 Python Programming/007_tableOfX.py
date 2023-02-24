@@ -1,7 +1,5 @@
+# Generating the table of a number "x" upto "n"
 def count_by(x, n):
-    """
-    Return a sequence of numbers counting by `x` `n` times.
-    """
     return list(range(x, n * x + 1, x))
 
 if __name__ == '__main__':
