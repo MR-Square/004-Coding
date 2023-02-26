@@ -6,5 +6,6 @@ def power_sum(arr):
     # return sum([pow(i,2) for i in arr])
     return sum(x * x for x in arr)
 
-print(power_sum([1,2,2]))
-print(power_sum([1,2,3]))
+if __name__ == '__main__':
+    myList = list(map(int,input('enter the list of numbers:: ').split()))
+    print(power_sum(myList))
