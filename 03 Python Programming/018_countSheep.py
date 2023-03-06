@@ -17,4 +17,4 @@ def count_sheep(n):
             print(f"{i} sheep... ",end="")
         
 
-print(count_sheep(4))
+count_sheep(4)
